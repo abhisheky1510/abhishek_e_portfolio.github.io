@@ -1,59 +1,406 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-    <link rel="stylesheet" href="./index.css">
-    <title>E-portfolio</title>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-77850754-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-77850754-2');
+</script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="portfolio Abhishek, portfolio Abhishek Phalak, ">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+
+    <title class = "title">E-portfilo</title>
+
+    <link rel="shortcut icon" href="ganesh.ico" />
+    <link href="./index.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:200' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Product+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+
 </head>
-<body>
-    <div class="grid-2">
-        <div class="section-1">
-            <img src="./images/profile_pic.jpg" style="height: 180px" id="1233" alt="">
-            <h2>Abhishek Phalak</h2>
-            <p>Dombivli,India.</p>
-            <h4> Bachelors of Engineering</h4>
-            <h5>(Computer Science)</h5>
-            <h4>Vidyalankar Institute of Technology</h4>
-            <br/>
-            <br/>
-            <h3 style="color: aliceblue;"><b>Connect</b></h3>
-            <a href="https://www.linkedin.com/in/abhishek-phalak-497382167"><i class="fab fa-linkedin"></i></a>
-            <a href="https://github.com/abhisheky1510/abhishek_e_portfolio.github.io.git"><i class="fab fa-github"></i></a>
+
+<body id="page-top" class="index">
+    <div class="spinner">
+        <div class="cube1"></div>
+        <div class="cube2"></div>
+    </div>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <i class="sr-only">Toggle navigation</i>
+                    <i class="icon-bar"></i>
+                    <i class="icon-bar"></i>
+                    <i class="icon-bar"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Abhishek Phalak</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+
+                    <li>
+                      <a class="page-scroll" href="#about">ABOUT</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#skills">SKILLS</a>
+                    </li>
+
+                    <li>
+                        <a class="page-scroll" href="#projects">PROJECTS</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#social">SOCIAL</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">CONTACT</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#resume">RESUME</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-        <div class="section-2">
-            <h2>About</h2>
-            <p>An Enthusiast learner and engineer trying to learn new things, explore new fields and areas of interest. Looking for internships and industrial exposure which can boost my technical skills and offer professional growth and gain experience in the area of expertise.</p>
-            <h2>Skills</h2>
-            <i class="fas fa-code fa-5x white"></i>
-            <ul>
-                <li>Web Developement </li>
-                <li>Deep learning</li>
-                <li>Machine Learning</li>
-                <li>Data Structures</li>
-                <li>Algorithms</li>
-                <li>Stocks
-                </li>
-            </ul>
-            <h2>Programming languages</h2>
-            <ul>
-                <li>Python</li>
-                <li>Html-5</li>
-                <li>Javascript</li>
-                <li>Bootstrap</li>
-                <li>Java</li>
-                <li>C programming</li>
-            </ul>
-            <h2>Projects</h2>
-            <a href="#" style="color: aliceblue;"><b>Piezo Electricity</b></a>
-            <p> Created an energy efficient model to reduce the consumption of electricity. Based on the principle of piezoelectricity where pressure can be converted into electricity, the model  contained piezoelectric roads which can transform the pressure of moving vehicles to electricity so that the corresponding street lights of the area can work without external supply of electricity. </p>
-            <a href="#" style="color: aliceblue;"><b>Sentiment Analysis</b></a>
-            <p> Using twitter API created an application which can analyse a sentiment of a particular entity by reading about the tweets of that word. Classified the sentiments into positive, negative and neutral tweets based on the people’s input fetching from Twitter and can give real time analysis of whether people like or dislike that entity.  </p>
-            <h2>Contact</h2>
-            <p>abhisheky1510@gmail.com</p>
+        <!-- /.container-fluid -->
+    </nav>
+<section id = "home">
+  <div class = "container-fluid">
+<div id = "home-details">
+  <img style=" box-shadow: 3px 3px rgb(204, 203, 203);" id = "profile-picture" src = "./images/profile_pic.jpg" class = "img img-circle" />
+  <h1>ABHISHEK PHALAK</h1>
+  <p>
+    Enthusiasm can help you find the new doors, but it takes passion to open them. If you have a strong purpose in life, you don't have to be pushed. Your passion will drive you there
+  </p>
+  <div class = "row" id = "field-details">
+<img class = "img img-circle" src = "./images/js.png">
+<img class = "img img-circle" src = "./images/python.png">
+<img class = "img img-circle" src = "./images/git.png">
+  </div>
+</div>
+</div>
+</section>
+
+<section id = "about">
+  <div class = "container-fluid">
+    <div id = "about-me">
+  <blockquote class = "blockquote">WHO AM I</blockquote>
+  <i id = "about-me-content"><sup><i style = "color: #009678" class = "fa fa-quote-left"></i></sup> Hi, I am Abhishek Phalak, an under graduate student from <a target = "_blank" href = "http://www.vit.edu.in">Vidyalankar Institute of Technology</a>.
+  An Enthusiast learner and engineer trying to learn new things, explore new fields and areas of interest. Looking for internships and industrial exposure which can boost my technical skills and offer professional growth and gain experience in the area of expertise..
+    <sup><i style = "color: #009678" class = "fa fa-quote-right"></i></sup>
+  </i>
+ <!-- <div id = "svg">
+  </div>-->
+</div>
+
+</div>
+</section>
+
+<section id = "skills">
+  <div class = "container-fluid">
+    <div class = "row" id = "skills-desc">
+      <div class = "col-sm-12">
+  <blockquote class = "blockquote">MY SKILLS</blockquote>
+</div>
+</div>
+    <div id = "skills-content" class = "row">
+    <div id = "areas" class = "col-md-6">
+      <p>AREAS</p>
+    </div>
+    <div id = "languages" class = "col-md-6">
+      <p>LANGUAGES</p>
+    </div>
+    <div id = "tools" class = "col-md-6">
+      <p>TOOLS</p>
+    </div>
+    <div id ="frameworks" class = "col-md-6">
+      <p>FRAMEWORKS</p>
+    </div>
+    </div>
+</div>
+</section>
+
+<!-- Modals for skills -->
+<div class="portfolio-modal modal fade" id="areas-modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h1>AREAS</h1>
+                        <p>MACHINE LEARNING</p>
+                        <p>DATA SCIENCE</p>
+                        <p>ARTIFICIAL INTELLIGENCE</p>
+
+                        <button id = "close" type="button" class="btn btn-default btn-block" data-dismiss="modal"><strong>CLOSE</strong></button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="languages-modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h1>LANGUAGES</h1>
+                        <p>C Programming</p>
+                        <p>PYTHON</p>
+                        <p>JAVASCRIPT</p>
+                        <p>HTML</p>
+                        <p>CSS</p>
+                        <p>Java</p>
+                        <p>SQL</p>
+                        <button id = "close" type="button" class="btn btn-default btn-block" data-dismiss="modal"><strong>CLOSE</strong></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="tools-modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h1>TOOLS</h1>
+                        <p>Octave/Matlab</p>
+                        <p>Jupyter</p>
+                        <p>GIT</p>
+                        <button id = "close" type="button" class="btn btn-default btn-block" data-dismiss="modal"><strong>CLOSE</strong></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="frameworks-modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h1>FRAMEWORKS</h1>
+                        <p>BOOTSTRAP</p>
+                        <p>JQUERY</p>
+                        <p>MYSQL</p>
+                        <p>REACT</p>
+                        <button id = "close" type="button" class="btn btn-default btn-block" data-dismiss="modal"><strong>CLOSE</strong></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section id="projects">
+    <div class="container-fluid">
+      <div class = "row" id = "projects-desc">
+        <div class = "col-sm-12">
+    <blockquote class = "blockquote">MY PROJECTS</blockquote>
+  </div>
+  </div>
+        <div class="row">
+          <div id = "picture-container" class = "col-sm-3 abelio" >
+                    <img id = "img" src="./images/leaf.png" class="img-responsive" alt="">
+            </div>
+          <div id = "picture-container" class="col-sm-3 org">
+                    <img id = "img" src="./images/org.png" class="img-responsive" alt="">
+            </div>
+            <div id = "picture-container" class="col-sm-3 timer">
+                  <img id = "img" src="./images/timer.png" class="img-responsive" alt="">
+            </div>
+            <div id = "picture-container" class="col-sm-3 wiki">
+                  <img id = "img" src="./images/wiki.png" class="img-responsive" alt="">
+            </div>
+        </div>
+        <center><a href = "https://www.github.com/abhisheky1510" target="_blank"><button id = "more" class = "btn btn-default">SEE MORE</button></a></center>
+    </div>
+</section>
+
+<!-- Modal for projects * -->
+<div class="portfolio-modal modal fade" id="abelio-modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h1 style = "color: #374456;margin-bottom: 20px">PIEZO-ELECTRICITY(GREEN-ENERGY)</h1>
+                        <hr style = "border-bottom: solid 3px #374456;width: 70%;margin-bottom: 20px"/>
+                        <p style = "margin-bottom: 30px;text-align: center; color: #424242; font-family: 'Montserrat';" id = "project-details">Created an energy efficient model to reduce the consumption of electricity. Based on the principle of piezoelectricity where pressure can be converted into electricity, the model  contained piezoelectric roads which can transform the pressure of moving vehicles to electricity so that the corresponding street lights of the area can work without external supply of electricity. </p>
+                        <blockquote style = "border-right: solid 5px #19bd9b;border-left: solid 5px #19bd9b; background: #bdbdbd; font-weight: bold;" class = "blockquote">PIEZO-ENERGY</blockquote>
+                        <blockquote style = "border-right: solid 5px #19bd9b;border-left: solid 5px #19bd9b; background: #bdbdbd; font-weight: bold;" class = "blockquote">DIGITAL LOGIC AND DESIGN</blockquote>
+                        <blockquote style = "border-right: solid 5px #19bd9b;border-left: solid 5px #19bd9b; background: #bdbdbd; font-weight: bold;" class = "blockquote">ELECTRICAL CIRCUITS</blockquote>
+                        <div class = "row">
+                          <button style = "margin: 20px 10px 20px 10px;" type="button" class="btn btn-danger" data-dismiss="modal" ><strong>CLOSE</strong></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="org-modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h1 style = "color: #374456;margin-bottom: 20px">SENTIMENT-ANALYSIS</h1>
+                        <hr style = "border-bottom: solid 3px #374456;width: 70%;margin-bottom: 20px"/>
+                        <p style = "margin-bottom: 30px;text-align: center; color: #424242; font-family: 'Montserrat';" id = "project-details">Using twitter API created an application which can analyse a sentiment of a particular entity by reading about the tweets of that word. Classified the sentiments into positive, negative and neutral tweets based on the people’s input fetching from Twitter and can give real time analysis of whether people like or dislike that entity.  </p>
+                        <blockquote style = "border-right: solid 5px #19bd9b;border-left: solid 5px #19bd9b; background: #bdbdbd; font-weight: bold;" class = "blockquote">PYTHON</blockquote>
+                        <blockquote style = "border-right: solid 5px #19bd9b;border-left: solid 5px #19bd9b; background: #bdbdbd; font-weight: bold;" class = "blockquote">TWITER API</blockquote>
+                        <div class = "row">
+                          <button style = "margin: 20px 10px 20px 10px;" type="button" class="btn btn-danger" data-dismiss="modal"><strong>CLOSE</strong></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="timer-modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h1 style = "color: #374456;margin-bottom: 20px">LED KNIGHT RIDER CIRCUITS(555 TIMER IC)</h1>
+                        <hr style = "border-bottom: solid 3px #374456;width: 70%;margin-bottom: 20px"/>
+                        <p style = "margin-bottom: 30px;text-align: center; color: #424242; font-family: 'Montserrat';" id = "project-details">Developed a knight rider circuit using 555 TIMER IC which can light the lamps alternately and gives the effect of running-light</p>
+                        <blockquote style = "border-right: solid 5px #19bd9b;border-left: solid 5px #19bd9b; background: #bdbdbd; font-weight: bold;" class = "blockquote">DIGITAL LOGIC AND DESIGN</blockquote>
+                        <blockquote style = "border-right: solid 5px #19bd9b;border-left: solid 5px #19bd9b; background: #bdbdbd; font-weight: bold;" class = "blockquote">ELECTRICAL CIRCUITS</blockquote>
+                        <div class = "row">
+                          <button style = "margin: 20px 10px 20px 10px;" type="button" class="btn btn-danger" data-dismiss="modal"><strong>CLOSE</strong></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="wiki-modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h1 style = "color: #374456;margin-bottom: 20px">RESTAURANT WEBSITE</h1>
+                        <hr style = "border-bottom: solid 3px #374456;width: 70%;margin-bottom: 20px"/>
+                        <p style = "margin-bottom: 30px;text-align: center; color: #424242; font-family: 'Montserrat';" id = "project-details">A Web Portal which uses wikipedia api to fetch content for the input query from wikipedia. It can also fetch random articles.</p>
+                        <blockquote style = "border-right: solid 5px #19bd9b;border-left: solid 5px #19bd9b; background: #bdbdbd; font-weight: bold;" class = "blockquote">HTML</blockquote>
+                        <blockquote style = "border-right: solid 5px #19bd9b;border-left: solid 5px #19bd9b; background: #bdbdbd; font-weight: bold;" class = "blockquote">CSS</blockquote>
+                        <blockquote style = "border-right: solid 5px #19bd9b;border-left: solid 5px #19bd9b; background: #bdbdbd; font-weight: bold;" class = "blockquote">BOOTSTRAP</blockquote>
+                        <blockquote style = "border-right: solid 5px #19bd9b;border-left: solid 5px #19bd9b; background: #bdbdbd; font-weight: bold;" class = "blockquote">JAVASCRIPT</blockquote>
+                        <blockquote style = "border-right: solid 5px #19bd9b;border-left: solid 5px #19bd9b; background: #bdbdbd; font-weight: bold;" class = "blockquote">JQUERY</blockquote>
+                        <div class = "row">
+                          <button style = "margin: 20px 10px 20px 10px;" type="button" class="btn btn-danger" data-dismiss="modal"><strong>CLOSE</strong></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section id = "social">
+  <div class = "container-fluid">
+    <div class = "row" id = "social-desc">
+      <div class = "col-sm-12">
+  <blockquote class = "blockquote">GET CONNECTED</blockquote>
+</div>
+</div>
+<div id = "links">
+<a href = "mailto:abhisheky1510@gmail.com" target = "_blank"><i class = "fa fa-google"  aria-hidden: "true"></i></a>
+<a href = "https://www.facebook.com/abhishek.phalak.33" target = "_blank"><i class = "fa fa-facebook" aria-hidden: "true"> </i></a>
+<a href = "https://www.linkedin.com/in/abhishek-phalak-497382167" target = "_blank"><i class = "fa fa-linkedin"  aria-hidden: "true"></i></a>
+<a href = "https://www.github.com/abhisheky1510" target = "_blank" ><i class = "fa fa-github" aria-hidden: "true"></i></a>
+</div>
+</div>
+</div>
+</section>
+
+<section id = "contact">
+  <div class = "container-fluid">
+    <div class = "row" id = "contact-desc">
+      <div class = "col-sm-12">
+  <blockquote class = "blockquote">GET IN TOUCH</blockquote>
+</div>
+</div>
+<div class = "row">
+
+    <form  method = "post" id = "say-hi" action = "mailto:abhisheky1510@gmail.com" class = "form-group col-sm-7">
+      <input id = "name" class = "form-control" name = "Name" type = "text" placeholder="Name" required/>
+      <input id = "email" class = "form-control" name = "Email" type = "email" placeholder="Email" required/>
+      <textarea id = "message" row = "10" name = "Message" class = "form-control" placeholder="Message" required></textarea>
+      <input type="hidden" name="_next" value="https://abhisheky1510.github.io/abhishek_e_portfolio.github.io/" />
+      <input type="hidden" name="_subject" value="New Message" />
+      <button id = "submit" class = "btn btn-default btn-block" type = "submit">SEND</button>
+    </form>
+  <div class = "col-sm-5">
+      <div id = "address-mail-phone">
+        <div><i class = "fa fa-map-marker"> Vidyalankar Institute of Technology, Mumbai</i></div>
+        <div><i class = "fa fa-envelope-o"> abhisheky1510@gmail.com</i></div>
+        <div><i class = "fa fa-mobile-phone"> +91 9769846580</i></div>
+      </div>
+
+
+  </div>
+</div>
+</div>
+</section>
+
+<section id = "resume">
+  <div class = "container-fluid">
+  <div class = "row" id = "resume-desc">
+    <div class = "col-sm-12">
+<blockquote class = "blockquote">RESUME</blockquote>
+</div>
+</div>
+<center><a href = "./Resume/abhishek-resume.pdf", target="_blank"><button  class = "btn btn-default fa fa-download" id = "download-resume"> DOWNLOAD RESUME</button></a></center>
+<center> id = "copyright">Copyright &copy; ABHISHEK PHALAK</center>
+</div>
+</section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <script src="./ab.js"></script>
+    <script src="./cd.js"></script>
+    <script src="./index.js"></script>
 </body>
 </html>
